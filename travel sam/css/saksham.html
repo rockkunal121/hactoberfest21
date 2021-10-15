@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+       
+
+    //    var name= prompt("Enter your string: ");
+       name="thisisfun";
+       var st2="";
+       translate(name);
+    function translate(name)
+    {
+        for(let i=0;i<name.length;i++) //we do name.length not name.length() so there was syntax error
+        {
+ 
+            if(name[i]=='a'||name[i]=='e'||name[i]=='i'||name[i]=='o'||name[i]=='u'||name[i]=='A'||name[i]=='E'||name[i]=='I'||name[i]=='O'||name[i]=='U')
+            {
+                // st2=st2+name[i]+'o'+name[i];
+                st2=st2+name[i];
+            }
+            else
+            {
+                // st2=st2+name[i];
+                st2=st2+name[i]+'o'+name[i];
+            }
+           
+        }
+         
+
+    }
+    
+  
+ 
+    document.write(st2);
+</script>
+   
+<body>
+    
+       
+</body>
+</html>
