@@ -9,7 +9,7 @@
 ## Rules To Contribute To This Repo
 
 -   Use any language.
--   C, C++, JAVA, Data Structure and Algorithms, HTML, CSS, Android Projects.
+-   JAVA, Data Structure and Algorithms, HTML, CSS, Js Projects.
 -   Anything valuable.
 
 ## Steps For Contribution
